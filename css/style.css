@@ -133,6 +133,7 @@ p small {
 }
 
 .button,
+.button:active,
 .button:visited {
   background-color: #000000;
   color: #ffffff;
@@ -144,7 +145,7 @@ p small {
   font-weight: 600;
   width: 7rem;
   margin: 0;
-  padding: .5rem 2rem;
+  padding: 0 2rem;
   border: 0.0625rem solid #000000;
   border-radius: 0.25rem;
   transition-duration: 0.25s;
