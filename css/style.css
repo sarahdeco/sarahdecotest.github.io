@@ -133,13 +133,10 @@ p small {
 }
 
 .button,
-.button a:active,
-.button a:visited {
+.button a {
   background-color: #000000;
   color: #ffffff;
   text-decoration: none;
-  font-size: 1.125rem;
-  text-align: center;
   align-items: center;
   align-content: center;
   font-family: "Alumni Sans", "Arial", sans-serif;
@@ -152,7 +149,10 @@ p small {
   transition-duration: 0.25s;
 }
 
-.button a:hover {
+.button a:active,
+.button a:hover,
+.button:active,
+.button:hover {
   background-color: #ffffff;
   color: #000000;
   text-decoration: underline;
