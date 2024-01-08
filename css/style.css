@@ -137,6 +137,7 @@ p small {
 .button:visited {
   background-color: #000000;
   color: #ffffff;
+  text-decoration: none;
   font-size: 1.125rem;
   text-align: center;
   align-items: center;
