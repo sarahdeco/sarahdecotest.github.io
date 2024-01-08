@@ -149,8 +149,6 @@ p small {
   transition-duration: 0.25s;
 }
 
-.button a:active,
-.button a:hover,
 .button:active,
 .button:hover {
   background-color: #ffffff;
