@@ -4,7 +4,7 @@
 h1 {
   font-size: 48px;
   font-family: "Playfair Display", "Georgia", serif;
-  margin: 0;
+  margin: 20px;
   max-width: 60ch;
 }
 
@@ -65,29 +65,34 @@ a:active {
 
 /* Header */
 header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   text-align: left;
   background-color: #000000;
   color: #ffffff;
-  padding: 20px 40px;
-  display: flex;
-  flex-direction: column;
+  padding: 20px;
 }
 
 /* Navigation Bar */
 nav {
-  display: flex;
-  justify-content: flex-start;
+  text-align: left;
 }
 
 nav ul {
-  display: flex;
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+nav ul li {
+  white-space: nowrap;
 }
 
 nav ul li {
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 nav ul a {
@@ -96,31 +101,43 @@ nav ul a {
 
 /* Images */
 figure {
-  padding: 20px;
   text-align: left;
 }
 
-/* Overview */
-#overview h2 {
+/* Discover */
+#discover {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#discover h2 {
   margin-bottom: 20px;
 }
 
-/* Discover */
-#discover h2 {
-  margin-bottom: 20px;
+#discover p:nth-child(2),
+#discover p:nth-child(3) {
+  margin-bottom: 10px;
 }
 
 /* Fun Facts */
 #facts {
   border: 1px dashed #000000;
   background-color: #ffffff;
+  align-items: center;
+}
+
+#facts h2 {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .facts-article-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
+
 .facts-article {
   max-width: 60ch;
   background-color: #00843d;
@@ -135,6 +152,12 @@ figure {
 }
 
 /* Visit */
+#visit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 #visit h2 {
   margin-bottom: 20px;
 }
@@ -145,6 +168,12 @@ figure {
 }
 
 /* Conservation */
+#conservation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 #conservation h2 {
   margin-bottom: 20px;
 }
@@ -158,13 +187,20 @@ figure {
 #resources {
   border: 1px dashed #000000;
   background-color: #ffffff;
+  align-items: center;
+}
+
+#resources h2 {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .resources-article-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
+
 .resources-article {
   max-width: 60ch;
   background-color: #00843d;
@@ -192,6 +228,11 @@ footer {
   background-color: #000000;
   color: #ffffff;
   padding: 20px;
-  text-align: left;
+  text-align: center;
+  align-items: center;
 }
 
+footer p {
+  margin: 0 auto;
+  text-align: center;
+}
