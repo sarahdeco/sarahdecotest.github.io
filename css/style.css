@@ -142,9 +142,8 @@ p small {
   font-family: "Alumni Sans", "Arial", sans-serif;
   font-weight: 600;
   width: 7rem;
-  height: 2rem;
   margin: 0;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
   border: 0.0625rem solid #000000;
   border-radius: 0.25rem;
   transition-duration: 0.25s;
