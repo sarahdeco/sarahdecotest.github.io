@@ -132,7 +132,7 @@ p small {
   padding: 0;
 }
 
-button {
+.button {
   background-color: #000000;
   color: #ffffff;
   font-size: 1.125rem;
@@ -148,7 +148,7 @@ button {
   transition-duration: 0.25s;
 }
 
-button:hover {
+.button:hover {
   background-color: #ffffff;
   color: #000000;
   text-decoration: underline;
